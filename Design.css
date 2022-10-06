@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 3px blue;
+    background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg');
+    }
+    header {
+     height: 125px;
+   background-color: rgb(36, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 10px;
+    }
+    ul{
+        justify-content: right;
+        align-items: center;
+        background-color: rgb(36, 13, 13);
+        display: flex;
+        
+        }
+        a{
+        color: white;
+        text-decoration: none;
+        }
+        li{
+        border: 0px;
+        margin: 20px;
+        border-style: solid;
+        display: inline;
+        font-size:xx-large;
+        text-align: center;
+        }
+        nav a:hover{
+        background-color: rgb(57, 124, 184);
+        color: rgb(34, 20, 164);
+        }
+    .banner {
+     height: 20vh;
+    background-color: rgb(98, 160, 199);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .head {
+     text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 3px red ;
+     box-shadow: red 2px;
+    }
+    
+    #Sec1 {
+    display: flex;
+     justify-content: space-evenly;
+    }
+    #Sec1 h2 {
+    width: 20%;
+     height: 300px;
+     background-color:rgb(7, 8, 96);
+     border-radius: 0%;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    /* #Sec2 {
+     display: flex;
+     justify-content: space-between;
+    }
+    #sec2 main {
+   width: 49%;
+   height: 500px;
+   background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    }
+    #Sec2 article {
+     width: 49%;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+    }
+    #Sec2 aside {
+     height: 150px;
+     background-color: rgba(31, 121, 176, 0.479);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    #Sec3 {
+     display: flex;
+     justify-content: space-evenly;
+    }
+    
+    #Sec3 h1 {
+     width: 20%;
+     height: 300px;
+     background-color: rgb(116, 152, 245);
+     border-radius: 0px 20px;
+ display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 10px;
+    } */
+    footer {
+     height: 100px;
+     background-color: rgb(42, 47, 63);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+
+    #sec-3 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+      }
+      
+      #sec-3 .box {
+        width: 300px;
+        height: 200px;
+        background-color:#149ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+        transition: .5s;
+      }
+      
+      #sec-3 .box:hover {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        box-shadow: 5px 5px 10px grey;
+        background-image:url('../img/coding.png');
+        transform: scale(1.1);
+      }
+      .fa-cloud-download {
+        color: #3498db;
+        font-size: 50px;
+        position: fixed;
+        top: 300px;
+        right: 20px;
+      }
+      h3{
+        color:rgb(255, 77, 0);
+        font-size: xx-large;
+        font-weight: bolder;
+       justify-content: center;
+       display: flex;
+      }
+     
+      #sec-3
+      {
+        width: auto;
+      }
